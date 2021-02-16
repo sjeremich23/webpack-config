@@ -3,7 +3,8 @@
   "scripts": {
     "start": "webpack serve",
     "watch": "webpack --watch",
-    "build": "webpack"
+    "build": "NODE_ENV=production webpack",
+    "build:dev": "webpack"
   },
   "homepage": "https://github.com/sjeremich23/webpack-config#readme",
   "devDependencies": {
